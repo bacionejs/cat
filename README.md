@@ -8,7 +8,17 @@ Inter-Galactic Gazette comments:
 - "This game brought out the melancholy side of me, especially the snow."
 - "Forget jumping every time the captain comes on deck—jumping is optional in this game."
 - "Tired of fighting? Nothing to shoot here and no scores to settle."
+- "Not a substitute for the holodeck, but I'd play it again."
 - "The in-game music is okay, but I prefer to mute it by clicking in the upper right corner of the game and then playing some [Smooth Trumpet Jazz – Spotify](https://open.spotify.com/playlist/6gqJPa4A4gXTwTSGWcpC1d)
+
+
+
+
+
+
+
+
+
 
 
 
