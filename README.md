@@ -9,7 +9,7 @@
 - "Forget jumping every time the captain comes on deck—jumping is optional in this game."
 - "Tired of fighting? Nothing to shoot here and no scores to settle."
 - "Not a substitute for the holodeck, but I'd play it again."
-- "Tired of clawing your way up the ladder? There's no claws in this cat's paw. Just a lot of guts."
+- "Tired of clawing your way to the top? There's no claws in this cat's paw. Just a lot of guts."
 - "The in-game music is okay, but I prefer to mute it by clicking in the upper right corner of the game and then playing some [Smooth Trumpet Jazz – Spotify](https://open.spotify.com/playlist/6gqJPa4A4gXTwTSGWcpC1d)
 
 
