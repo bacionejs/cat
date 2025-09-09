@@ -1,7 +1,7 @@
 onload=()=>{
 
 document.title="C A T";
-document.head.appendChild(document.createElement("style")).textContent=" *{margin:0;padding:0;position:fixed;box-sizing:border-box;touch-action:none;user-select:none;} canvas{background:gray;} body{background:black;} ";
+document.head.appendChild(document.createElement("style")).textContent=" *{margin:0;padding:0;position:fixed;box-sizing:border-box;touch-action:none;user-select:none;} canvas{background:indigo;} body{background:black;} ";
 
 document.addEventListener("contextmenu",(e)=>e.preventDefault());
 
