@@ -2,8 +2,6 @@ function generateRooftops({GAME_W:W,GAME_H:H,minGap,maxGap,rooftopY}){
 
 function rnd(min,max){return min+Math.random()*(max-min);}
 
-let dark="#292929";
-let light="#505050";
 let rooftops=[];
 let minw=250;
 let maxw=600;
@@ -39,9 +37,11 @@ while(rooftops.length&&rooftops[rooftops.length-1].x<W){
 function draw(C){
 let radius=5;
 for(let r of rooftops){
-  let gradient=C.createLinearGradient(0,r.y,0,H);
-  gradient.addColorStop(0,dark);
-  gradient.addColorStop(1,light);
+  let gradient=C.createLinearGradient(0,H,0,r.y);
+  gradient.addColorStop(0.00,"hsl(0, 0%, 30%)");
+  gradient.addColorStop(0.98,"hsl(0, 0%, 10%)");
+  gradient.addColorStop(0.98,"hsl(0, 0%, 70%)");
+  gradient.addColorStop(1.00,"hsl(0, 0%, 30%)");
   C.fillStyle=gradient;
   drawRoundedRect(C,r.x,r.y,r.width,H-r.y,radius);
   C.fill();
