@@ -7,12 +7,44 @@ document.addEventListener("contextmenu",(e)=>e.preventDefault());
 
 let canvas=document.body.appendChild(document.createElement("canvas"));
 let ctx=canvas.getContext("2d");
-let aud=null;
-loadMusic().then(a=>{aud=a;});
 
-canvas.addEventListener("pointerdown",()=>{
-if(aud&&aud.state==='suspended')aud.resume();
-if(!jumping){velocityY=velocityYoriginal;jumping=true;}
+let source=null;
+let context=null;
+let buffer=null;
+let isPlaying=false;
+
+loadMusic().then(a=>{
+  ({source,context,buffer}=a);
+  source.start();
+  isPlaying=true;
+});
+
+canvas.addEventListener("pointerdown",(e)=>{
+  if(e.offsetY<canvas.height*0.1){
+    if(source){
+      if(isPlaying){
+        alert("Stopping music");
+        source.stop();
+        isPlaying=false;
+      }else{
+        alert("Starting music");
+        source=context.createBufferSource();
+        source.buffer=buffer;
+        source.loop=true;
+        source.connect(context.destination);
+        source.start();
+        isPlaying=true;
+      }
+    }
+  }else{
+    if(context&&context.state==="suspended"){
+      context.resume();
+    }
+    if(!jumping){
+      velocityY=velocityYoriginal;
+      jumping=true;
+    }
+  }
 });
 
 let rooftopY=1000;
