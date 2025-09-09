@@ -4,7 +4,7 @@
     <img src="README.jpg" width="33%" />
 </a>
 
-CAT is a zen experience
+CAT === ZEN
 
 📰 **Inter-Galactic Gazette** comments:
 
