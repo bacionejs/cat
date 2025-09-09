@@ -5,6 +5,7 @@
 </a>
 <br>
 <br>
+
 **Inter-Galactic Gazette** comments:
 
 - "I can't believe I've played this lovely little zen game the whole trip to Alpha Centauri. It definitely helped me reconnect with my hometown of New York in a nostalgic way."
