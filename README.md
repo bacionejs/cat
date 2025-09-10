@@ -9,7 +9,7 @@
 📰 **Inter-Galactic Gazette** reader comments:
 
 ---
-I played this lovely little zen game all the way to Alpha Centauri...nostalgic memories of my hometown  
+I played this lovely little zen game all the way to Alpha Centauri...hometown nostalgia  
 – Rick from New York
 
 ---
