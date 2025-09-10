@@ -8,17 +8,23 @@
 
 📰 **Inter-Galactic Gazette** reader comments:
 
-> I played this lovely little zen game the whole way to Alpha Centauri...nostalgic memories of my hometown  
-> – Rick from New York
+---
+I played this lovely little zen game the whole way to Alpha Centauri...nostalgic memories of my hometown  
+– Rick from New York
 
-> A snowy run across Gotham's rooftops always calms the femme fatale Catwoman in me 😼  
-> – Stefanie from Australia
+---
+A snowy run across Gotham's rooftops always calms the femme fatale Catwoman in me 😼  
+– Stefanie from Australia
 
-> No missions, no levels, no chaos...even jumping is optional  
-> – Anonymous
+---
+No missions, no levels, no chaos...even jumping is optional  
+– Anonymous
 
-> The in-game music is okay, but I tap the top to mute and then play background spotify [jazz](https://open.spotify.com/playlist/6gqJPa4A4gXTwTSGWcpC1d)  
-> – Amy from London
+---
+The in-game music is okay, but I tap the top to mute and then play background spotify [jazz](https://open.spotify.com/playlist/6gqJPa4A4gXTwTSGWcpC1d)  
+– Amy from London
+
+---
 
 ## Credits
 - Music Player: [pl_synth](https://github.com/phoboslab/pl_synth)
