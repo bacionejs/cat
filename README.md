@@ -17,7 +17,7 @@
 > No missions, no levels, no chaos...even jumping is optional  
 > – Anonymous
 
-> The in-game music is okay, but I click in the upper part of the game to mute and then play background spotify smooth trumpet [jazz](https://open.spotify.com/playlist/6gqJPa4A4gXTwTSGWcpC1d)  
+> The in-game music is okay, but I tap the top to mute and then play background spotify [jazz](https://open.spotify.com/playlist/6gqJPa4A4gXTwTSGWcpC1d)  
 > – Amy from London
 
 ## Credits
