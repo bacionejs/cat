@@ -23,11 +23,11 @@ canvas.addEventListener("pointerdown",(e)=>{
   if(e.offsetY<canvas.height*0.1){
     if(source){
       if(isPlaying){
-        alert("Stopping music");
+//         alert("Stopping music");
         source.stop();
         isPlaying=false;
       }else{
-        alert("Starting music");
+//         alert("Starting music");
         source=context.createBufferSource();
         source.buffer=buffer;
         source.loop=true;
