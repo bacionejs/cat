@@ -8,10 +8,10 @@
 
 📰 **Inter-Galactic Gazette** reader comments:
 
-> I can't believe I played this lovely little zen game the whole trip to Alpha Centauri...helped me reconnect with my hometown in a nostalgic way  
+> I played this lovely little zen game the whole way to Alpha Centauri...nostalgic memories of my hometown  
 > – Rick from New York
 
-> A snowy run across Gotham's rooftop always calms the femme fatale Catwoman in me 😼  
+> A snowy run across Gotham's rooftops always calms the femme fatale Catwoman in me 😼  
 > – Stefanie from Australia
 
 > No missions, no levels, no chaos...even jumping is optional  
