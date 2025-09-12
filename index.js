@@ -1,6 +1,6 @@
 onload=()=>{
 
-document.title="C A T";
+document.title="J A Z Z";
 document.head.appendChild(document.createElement("style")).textContent=" *{margin:0;padding:0;position:fixed;box-sizing:border-box;touch-action:none;user-select:none;} canvas{background:indigo;} body{background:black;} ";
 
 document.addEventListener("contextmenu",(e)=>e.preventDefault());
@@ -23,10 +23,12 @@ canvas.addEventListener("pointerdown",(e)=>{
   if(e.offsetY<canvas.height*0.1){
     if(source){
       if(isPlaying){
+        mute=true;
 //         alert("Stopping music");
         source.stop();
         isPlaying=false;
       }else{
+        mute=false;
 //         alert("Starting music");
         source=context.createBufferSource();
         source.buffer=buffer;
@@ -40,12 +42,37 @@ canvas.addEventListener("pointerdown",(e)=>{
     if(context&&context.state==="suspended"){
       context.resume();
     }
-    if(!jumping){
+    const rect = canvas.getBoundingClientRect();
+    const scaleX = canvas.width / rect.width;
+    const x = (e.clientX - rect.left) * scaleX;
+    const note = notes[Math.min( Math.floor(x / (GAME_W / notes.length)), notes.length - 1)];
+    if(!mute)sound(note);
+    if(!jumping && note==150){
       velocityY=velocityYoriginal;
       jumping=true;
     }
+
   }
 });
+
+
+
+let mute=false;
+let notes=[144, 147, 149, 150, 151, 154, 156];
+let piano=[7,0,0,0,192,2,7,0,0,0,192,2,0,0,0,20000,192,0,0,0,0,121,0,0,0,0,0,0,0];
+let A=new AudioContext();
+let M=pl_synth_wasm_init;
+function sound(note) {
+M(A, m => {
+  let s = A.createBufferSource();
+  s.buffer = m.sound( piano, note);
+  s.connect(A.destination);
+  s.start();
+});
+}
+
+
+
 
 let rooftopY=1000;
 let catX=300;
