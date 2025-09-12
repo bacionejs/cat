@@ -27,11 +27,11 @@ There is no score, level, mission or bad guys.
 Tap the top to mute and then play background jazz - [spotify](https://open.spotify.com/playlist/6gqJPa4A4gXTwTSGWcpC1d)  
 
 ---
-**Tutorial**
+**Tutorial**  
 How to play jazz music - [youtube](https://youtube.com/shorts/E5WLNmErkiY?si=CXQLaWg2f1XLaixs)  
 
 ---
-## Credits
+## Credits  
 - Music Player: [pl_synth](https://github.com/phoboslab/pl_synth)
 
 ---
