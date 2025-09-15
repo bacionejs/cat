@@ -94,3 +94,19 @@ Without this bobbing, the legs would move correctly, but the run would feel flat
 Together, these three effects — **delay, easing, and bobbing** — produce a run cycle that feels organic and convincing with very little code.  
 
 👉 The lower leg physics makes the paw placement believable, and the torso bobbing seals the illusion of a real running cat.
+
+
+
+
+## 🎹 Jazz Concept
+
+This isn’t just a run cycle — it’s also a **game you play like an instrument**.
+
+### Jump trigger
+- **Instrument:** improvise over the jazz soundtrack with piano notes.  
+Among the notes, one key is special — when you hit the middle note, it doesn’t just play sound: it also triggers a **jump**
+
+
+👉 Tests your ability to multitask music and jumping.
+
+
