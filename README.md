@@ -71,7 +71,7 @@ So instead of robotic motion, the shin **extends and retracts with momentum**, l
 
 ### 3. Range-limited extension
  
-The eased value `e` then sweeps the shin angle between a **minimum bend** and a **maximum extension**, to prevent an unnatural look:  
+The eased value `e` then sweeps the shin angle between a **minimum bend** and a **maximum extension**, in a range that looks natural:  
 
 `let angle = u + l.lowerMin + (l.lowerMax - l.lowerMin) * e;`
 
