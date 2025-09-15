@@ -71,15 +71,13 @@ So instead of robotic motion, the shin **extends and retracts with momentum**, l
 
 ### 3. Range-limited extension
  
-The eased value `e` then sweeps the shin angle between a **minimum bend** and a **maximum extension**:  
+The eased value `e` then sweeps the shin angle between a **minimum bend** and a **maximum extension**, to prevent an unnatural look:  
 
 `let angle = u + l.lowerMin + (l.lowerMax - l.lowerMin) * e;`
 
 - `lowerMin` keeps the knee slightly bent, even at rest.  
 - `lowerMax` defines the full stretch when the foot reaches forward.  
 
-This creates a **springy, elastic feel** as the leg folds and extends.
-  
 ### 4. Subtle body bobbing
  
 To tie it all together, the whole body is given a slight **up-and-down bob**:  
