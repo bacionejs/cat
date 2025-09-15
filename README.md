@@ -28,7 +28,7 @@ Tap the top to mute and then play background jazz - [spotify](https://open.spoti
 
 ---
 **Tutorial**  
-How to play jazz music - [youtube](https://youtube.com/shorts/E5WLNmErkiY?si=CXQLaWg2f1XLaixs)  
+How to play jazz music - [youtube](https://www.youtube.com/watch?v=E5WLNmErkiY)  
 
 ---
 ## Credits  
@@ -38,6 +38,21 @@ How to play jazz music - [youtube](https://youtube.com/shorts/E5WLNmErkiY?si=CXQ
 
 
 ## Post-mortem
+
+### 📝 Backstory  
+
+I really wanted to make a **smooth-running Catwoman**. But with no experience in drawing or animation, I decided not to worry too much about form and instead focus on capturing a **natural, fluid stride**.  
+
+I also imagined the game with **jazz background music** — something cool and relaxing to match the zen vibe of a snowy nighttime Gotham rooftop run.  
+
+The problem: I’ve never composed music before. I tried several tracker editors but struggled with them. Eventually, I even [built my own tracker](https://github.com/bacionejs/battito). Still, I couldn’t create a jazz piece that truly fit the mood I wanted.  
+
+After watching countless jazz tutorials, I had an epiphany: instead of composing the perfect track myself, why not let the [player play simple jazz](https://www.youtube.com/watch?v=E5WLNmErkiY) — and make one of the notes trigger the cat’s jump? Naturally, this turned into a **multitasking nightmare** 😅.  
+
+In the end, you have two choices:  
+
+- For the **Zen experience**, tap at the top to mute the in-game sound and play your own background jazz.  
+- Or, if you’re feeling daring, try to **jump and play jazz at the same time** — and see how long you last!
 
 ## 🎹 Jump trigger
 
