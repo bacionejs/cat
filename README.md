@@ -48,7 +48,7 @@ Among the notes, one key is special — when you hit the middle note, it doesn�
 
 ## 🐾 Body Physics
  
-The most interesting part of this animation is how the **shin (lower leg)** and the **torso bobbing** work together to make the cat’s stride look alive.
+The most interesting part of this animation is how the **shin (lower leg)** and the **body bobbing** work together to make the cat’s stride look alive.
   
 ### 1. Phase delay in the shin
  
@@ -76,18 +76,18 @@ The eased value `e` then sweeps the shin angle between a **minimum bend** and a 
 `let angle = u + l.lowerMin + (l.lowerMax - l.lowerMin) * e;`
 
 - `lowerMin` keeps the knee slightly bent, even at rest.  
-- `lowerMax` defines the full stretch when the paw reaches forward.  
+- `lowerMax` defines the full stretch when the foot reaches forward.  
 
 This creates a **springy, elastic feel** as the leg folds and extends.
   
-### 4. Subtle torso bobbing
+### 4. Subtle body bobbing
  
-To tie it all together, the whole torso is given a slight **up-and-down bob**:  
+To tie it all together, the whole body is given a slight **up-and-down bob**:  
 
 `let b = sin(p0*2 + PI/4) * 6 * size;`  
 `let h0 = { x: h[0].x, y: h[0].y + b };`
 
-- The bobbing is tied to **double the leg cycle frequency** (`sin(p*2)`), matching the rhythm of paw impacts.  
+- The bobbing is tied to **double the leg cycle frequency** (`sin(p*2)`), matching the rhythm of foot impacts.  
 - The amplitude is small (just a few pixels), but it makes the cat look like it’s **absorbing impact and pushing off the ground**.  
 
 Without this bobbing, the legs would move correctly, but the run would feel flat and mechanical. With it, the stride feels weighty and natural.
@@ -100,7 +100,7 @@ Without this bobbing, the legs would move correctly, but the run would feel flat
 
 Together, these three effects — **delay, easing, and bobbing** — produce a run cycle that feels organic and convincing with very little code.  
 
-👉 The lower leg physics makes the paw placement believable, and the torso bobbing seals the illusion of a real running cat.
+👉 The lower leg physics makes the foot placement believable, and the body bobbing seals the illusion of a real running cat.
 
 
 
