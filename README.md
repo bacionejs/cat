@@ -75,9 +75,6 @@ The eased value `e` then sweeps the shin angle between a **minimum bend** and a 
 
 `let angle = u + l.lowerMin + (l.lowerMax - l.lowerMin) * e;`
 
-- `lowerMin` keeps the knee slightly bent, even at rest.  
-- `lowerMax` defines the full stretch when the foot reaches forward.  
-
 ### 4. Subtle body bobbing
  
 To tie it all together, the whole body is given a slight **up-and-down bob**:  
