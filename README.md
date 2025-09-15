@@ -98,14 +98,10 @@ Together, these three effects — **delay, easing, and bobbing** — produce a r
 
 
 
-## 🎹 Jazz Concept
+## 🎹 Jump trigger
 
-This isn’t just a run cycle — it’s also a **game you play like an instrument**.
-
-### Jump trigger
 - **Instrument:** improvise over the jazz soundtrack with piano notes.  
 Among the notes, one key is special — when you hit the middle note, it doesn’t just play sound: it also triggers a **jump**
-
 
 👉 Tests your ability to multitask music and jumping.
 
