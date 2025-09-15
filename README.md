@@ -97,7 +97,7 @@ To tie it all together, the whole body is given a slight **up-and-down bob**:
 `let b = sin(p0*2 + PI/4) * 6 * size;`  
 `let h0 = { x: h[0].x, y: h[0].y + b };`
 
-- The bobbing is tied to **double the leg cycle frequency** (`sin(p*2)`), matching the rhythm of foot impacts.  
+- The bobbing is tied to **double the leg cycle frequency** (`sin(p*2)`), matching the leg rhythm.  
 - The amplitude is small (just a few pixels), but it makes the body look like it’s **absorbing impact and pushing off the ground**.  
 
 Without this bobbing, the legs would move correctly, but the run would feel flat and mechanical. With it, the stride feels weighty and natural.
@@ -110,7 +110,7 @@ Without this bobbing, the legs would move correctly, but the run would feel flat
 
 Together, these three effects — **delay, easing, and bobbing** — produce a run cycle that feels organic and convincing with very little code.  
 
-👉 The lower leg physics makes the foot placement believable, and the body bobbing seals the illusion of a real running catwoman.
+👉 The lower leg physics makes the stride believable, and the body bobbing seals the illusion of a real running catwoman.
 
 
 
