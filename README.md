@@ -39,6 +39,13 @@ How to play jazz music - [youtube](https://youtube.com/shorts/E5WLNmErkiY?si=CXQ
 
 ## Post-mortem
 
+## 🎹 Jump trigger
+
+- **Instrument:** improvise over the jazz soundtrack with piano notes.  
+Among the notes, one key is special — when you hit the middle note, it doesn’t just play sound: it also triggers a **jump**
+
+👉 Tests your ability to multitask music and jumping.
+
 ## 🐾 Body Physics
  
 The most interesting part of this animation is how the **shin (lower leg)** and the **torso bobbing** work together to make the cat’s stride look alive.
@@ -97,12 +104,5 @@ Together, these three effects — **delay, easing, and bobbing** — produce a r
 
 
 
-
-## 🎹 Jump trigger
-
-- **Instrument:** improvise over the jazz soundtrack with piano notes.  
-Among the notes, one key is special — when you hit the middle note, it doesn’t just play sound: it also triggers a **jump**
-
-👉 Tests your ability to multitask music and jumping.
 
 
