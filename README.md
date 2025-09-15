@@ -35,3 +35,62 @@ How to play jazz music - [youtube](https://youtube.com/shorts/E5WLNmErkiY?si=CXQ
 - Music Player: [pl_synth](https://github.com/phoboslab/pl_synth)
 
 ---
+
+
+## Post-mortem
+
+## 🐾 Body Physics
+ 
+The most interesting part of this animation is how the **shin (lower leg)** and the **torso bobbing** work together to make the cat’s stride look alive.
+  
+### 1. Phase delay in the shin
+ 
+The shin doesn’t move in perfect sync with the thigh. Its motion is shifted slightly in time (`lowerDelay`), so the knee bends **after** the thigh starts swinging. This gives the motion a sense of follow-through, like muscle and tendon reaction rather than mechanical linkage.  
+
+`let t = (sin(p - l.lowerDelay) + 1) / 2;`
+
+### 2. Quadratic ease-in/out
+ 
+The raw sine motion is reshaped with a **quadratic ease function**:  
+
+`let e = t < .5 ? 2*t*t : -1 + (4 - 2*t)*t;`
+
+This curve makes the shin:
+- **Ease in** slowly from rest  
+- **Accelerate** in mid-swing  
+- **Ease out** to slow down at the end  
+
+So instead of robotic motion, the shin **extends and retracts with momentum**, like a real limb.  
+
+### 3. Range-limited extension
+ 
+The eased value `e` then sweeps the shin angle between a **minimum bend** and a **maximum extension**:  
+
+`let angle = u + l.lowerMin + (l.lowerMax - l.lowerMin) * e;`
+
+- `lowerMin` keeps the knee slightly bent, even at rest.  
+- `lowerMax` defines the full stretch when the paw reaches forward.  
+
+This creates a **springy, elastic feel** as the leg folds and extends.
+  
+### 4. Subtle torso bobbing
+ 
+To tie it all together, the whole torso is given a slight **up-and-down bob**:  
+
+`let b = sin(p0*2 + PI/4) * 6 * size;`  
+`let h0 = { x: h[0].x, y: h[0].y + b };`
+
+- The bobbing is tied to **double the leg cycle frequency** (`sin(p*2)`), matching the rhythm of paw impacts.  
+- The amplitude is small (just a few pixels), but it makes the cat look like it’s **absorbing impact and pushing off the ground**.  
+
+Without this bobbing, the legs would move correctly, but the run would feel flat and mechanical. With it, the stride feels weighty and natural.
+  
+### 5. Physics analogy
+ 
+- **Thigh (upper leg):** like a driven pendulum.  
+- **Shin (lower leg):** a secondary pendulum with delay and easing, following the thigh.  
+- **Torso bobbing:** the “mass-on-springs” effect of body weight shifting with each step.  
+
+Together, these three effects — **delay, easing, and bobbing** — produce a run cycle that feels organic and convincing with very little code.  
+
+👉 The lower leg physics makes the paw placement believable, and the torso bobbing seals the illusion of a real running cat.
