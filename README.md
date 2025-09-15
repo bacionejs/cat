@@ -48,7 +48,7 @@ Among the notes, one key is special — when you hit the middle note, it doesn�
 
 ## 🐾 Body Physics
  
-The most interesting part of this animation is how the **shin (lower leg)** and the **body bobbing** work together to make the cat’s stride look alive.
+The most interesting part of this animation is how the **shin (lower leg)** and the **body bobbing** work together to make the body’s stride look alive.
   
 ### 1. Phase delay in the shin
  
@@ -83,7 +83,7 @@ To tie it all together, the whole body is given a slight **up-and-down bob**:
 `let h0 = { x: h[0].x, y: h[0].y + b };`
 
 - The bobbing is tied to **double the leg cycle frequency** (`sin(p*2)`), matching the rhythm of foot impacts.  
-- The amplitude is small (just a few pixels), but it makes the cat look like it’s **absorbing impact and pushing off the ground**.  
+- The amplitude is small (just a few pixels), but it makes the body look like it’s **absorbing impact and pushing off the ground**.  
 
 Without this bobbing, the legs would move correctly, but the run would feel flat and mechanical. With it, the stride feels weighty and natural.
   
@@ -95,7 +95,7 @@ Without this bobbing, the legs would move correctly, but the run would feel flat
 
 Together, these three effects — **delay, easing, and bobbing** — produce a run cycle that feels organic and convincing with very little code.  
 
-👉 The lower leg physics makes the foot placement believable, and the body bobbing seals the illusion of a real running cat.
+👉 The lower leg physics makes the foot placement believable, and the body bobbing seals the illusion of a real running catwoman.
 
 
 
