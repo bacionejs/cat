@@ -59,6 +59,9 @@ In the end, you have two choices:
 - **Instrument:** improvise over the jazz soundtrack with piano notes.  
 Among the notes, one key is special — when you hit the middle note, it doesn’t just play sound: it also triggers a **jump**
 
+Catwoman does fall from the rooftop, just not very far. It's more of a gentle visual cue than a punishment. And like the instruction says, there's no penalty for missing. So she just keeps going. Anything more than that would negate the Zen vibe.
+
+
 👉 Tests your ability to multitask music and jumping.
 
 ## 🐾 Body Physics
