@@ -18,8 +18,8 @@ The middle note causes her to jump.
 
 ---
 **Challenge**  
-Try to play jazz while jumping.  
-There is no penalty for missing a rooftop.  
+**Try to play jazz while jumping**  
+**There is no penalty for missing a rooftop**  
 There is no score, level, mission or bad guys.  
 
 ---
@@ -41,11 +41,11 @@ How to play jazz music - [youtube](https://www.youtube.com/watch?v=E5WLNmErkiY)
 
 This game is unorthodox, so it requires a little extra attention from the player to make it challenging and fun.
 
-- First, watch the jazz tutorial video on how to compose simple jazz.
+- First, watch the [jazz tutorial](https://www.youtube.com/watch?v=E5WLNmErkiY) video on how to compose simple jazz.
 
 - Then, forget about Catwoman, close your eyes and play the seven notes across the screen. Work on your improv skills, based on the tutorial you watched.
 
-- Then, when you're confident, try to combine that with hitting the middle note at the exact time to make the cat jump to the next rooftop.  
+- Then, when you're confident, try to combine that with hitting the middle note at the exact time to make Catwoman jump to the next rooftop.  
 
 
 It's impossible to score your improv, but you know if you've played good or not.
