@@ -40,15 +40,15 @@ How to play jazz music - [youtube](https://www.youtube.com/watch?v=E5WLNmErkiY)
 ## Post-mortem
 
 This game is unorthodox, so it requires a little extra attention from the player to make it challenging and fun.
+There is no score to tell you that you are a success, only your own eyes and ears...
 
-- First, watch the [jazz tutorial](https://www.youtube.com/watch?v=E5WLNmErkiY) video on how to compose simple jazz.
+- First, watch the [jazz tutorial](https://www.youtube.com/watch?v=E5WLNmErkiY) video on how to do jazz improv.
 
-- Then, forget about Catwoman, close your eyes and play the seven notes across the screen. Work on your improv skills, based on the tutorial you watched.
+- Then, forget about Catwoman, close your eyes and play the seven notes across the screen. Work on your improv skills based on the tutorial you watched.
 
 - Then, when you're confident, try to combine that with hitting the middle note at the exact time to make Catwoman jump to the next rooftop.  
 
-
-It's impossible to score your improv, but you know if you've played good or not.
+It's impossible to score your improv, but you know if you've played good or not. Also, Catwoman does fall from the rooftop, just not very far. It's more of a gentle visual cue than a punishment. And like the instruction says, there's no penalty for missing. So she just keeps going. Anything more than that would negate the Zen vibe.
 
 
 
@@ -72,7 +72,6 @@ In the end, you have two choices:
 - **Instrument:** improvise over the jazz soundtrack with piano notes.  
 Among the notes, one key is special — when you hit the middle note, it doesn’t just play sound: it also triggers a **jump**
 
-Catwoman does fall from the rooftop, just not very far. It's more of a gentle visual cue than a punishment. And like the instruction says, there's no penalty for missing. So she just keeps going. Anything more than that would negate the Zen vibe.
 
 
 👉 Tests your ability to multitask music and jumping.
