@@ -39,6 +39,19 @@ How to play jazz music - [youtube](https://www.youtube.com/watch?v=E5WLNmErkiY)
 
 ## Post-mortem
 
+This game is unorthodox, so it requires a little extra attention from the player to make it challenging and fun.
+
+- First, watch the jazz tutorial video on how to compose simple jazz.
+
+- Then, forget about Catwoman, close your eyes and play the seven notes across the screen. Work on your improv skills, based on the tutorial you watched.
+
+- Then, when you're confident, try to combine that with hitting the middle note at the exact time to make the cat jump to the next rooftop.  
+
+
+It's impossible to score your improv, but you know if you've played good or not.
+
+
+
 ### 📝 Backstory  
 
 I really wanted to make a **smooth-running Catwoman**. But with no experience in drawing or animation, I decided not to worry too much about form and instead focus on capturing a **natural, fluid stride**.  
