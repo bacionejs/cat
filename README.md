@@ -18,7 +18,7 @@ The middle note causes her to jump.
 
 ---
 **Challenge**  
-💡 Try to play jazz while jumping.  
+💡 Try to make jazz music while jumping.  
 There is no penalty for missing a rooftop.  
 There is no score, level, mission or bad guys.  
 
