@@ -54,7 +54,9 @@ It's impossible to score your music improv, but you know if you sound good. Also
 
 ### 📝 Backstory  
 
-I really wanted to make a **smooth-running Catwoman**. But with no experience in drawing or animation, I decided not to worry too much about form and instead focus on capturing a **natural, fluid stride**.  
+It was the end of the competition and even with my prodding in the forum, nobody planned to make a Catwoman and it would be a shame if she wasn't represented. 
+I really wanted to see a **sleek and smooth Catwoman**. 
+But with no experience in drawing or animation, I decided not to worry too much about form and instead focus on capturing a **natural, fluid stride**.  
 
 I also imagined the game with **jazz background music** — something cool and relaxing to match the zen vibe of a snowy nighttime Gotham rooftop run.  
 
