@@ -129,7 +129,23 @@ Together, these three effects — **delay, easing, and bobbing** — produce a r
 
 👉 The lower leg physics makes the stride believable, and the body bobbing seals the illusion of a real running catwoman.
 
+## 🏃‍♀️ Animation Performance: Pre-rendering the Run Cycle
 
+To ensure a silky-smooth animation without performance hits, Catwoman's entire run cycle isn't drawn in real-time during the game. Instead, it's **pre-rendered** into a series of static images when the game first loads.
 
+### How It Works
 
+1.  **One-Time Generation:** At startup, the code procedurally generates each of the 30 frames of the run cycle. For every frame, it calculates the precise position and angle of the torso, head, arms, and legs using the physics logic described above.
+
+2.  **Drawing to an Off-screen Canvas:** Each calculated frame is drawn onto a hidden canvas that the player never sees.
+
+3.  **Storing as Images:** This canvas is immediately converted into an image data URL (`.toDataURL()`) and stored in an array. This process is repeated for all 30 frames.
+
+4.  **Playback:** During the game, the animation loop simply picks the correct pre-made image from the array and draws it to the screen.
+
+### The Advantage
+
+This technique is a classic **space-time tradeoff**. It uses a bit more memory upfront to store the image frames, but it drastically reduces the CPU's workload during gameplay. Instead of performing dozens of complex physics calculations every single frame, the game only needs to do one simple thing: draw an image.
+
+👉 This pre-rendering process is key to making the animation fluid and responsive, even on less powerful devices.
 
